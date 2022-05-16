@@ -40,6 +40,7 @@ function ShowComments(props){
     const {body,email,name} = props.comment;
     return( 
         <div style={{border: '1px solid black',margin: '20px', borderRadius:'8px',padding: '10px'}}>
+            <img src={`https://avatars.abstractapi.com/v1/?api_key=792016207dd64ae38c42b470904c44f4&name=${email}`} alt="" />
           <p>Name: {name}</p>
           <p>Email: {email}</p>
           <p>Comment: {body}</p>  

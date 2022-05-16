@@ -8,6 +8,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Showvalue />} />
+        <Route path="/home" element={<Showvalue />} />
         <Route path="posts/:postId" element={<DetailUser/>} />
         <Route path="*" element={<Notfound />} />
       </Routes>
